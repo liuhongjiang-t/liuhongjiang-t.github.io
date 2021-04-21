@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html  lang="CN">
+
+<head>
+  <meta charset="utf-8">
+ <title>脑筋急刹车</title>
+ <!-- 插入Script -->
+ <script src="script.js"></script>
+ <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</head>
+
+<body>
+  <h1>脑筋急急急转弯</h1>
+  <p >几道题：有点简单但是费脑</p>
+<div class="out" style="align:center;">
+  <div class="in"><b>问题</b></div><br />
+  <div id="question" class="in">什么英文字母最多人喜欢听?</div><br><br>
+</div>
+<br>
+ <!-- onkeyup="this.value=this.value.toUpperCase()" -->
+<from name="judge">
+<input id="ans" name="ans" type="text" placeholder="搁着输答案" ><br><br><br>
+<button id="guess" type="button" onclick="my_func()">就决定是你啦</button>
+
+</from>
+<p id = "demo" style="font-size:15px"></p>
+<br><br>
+<button id="re" type="button" onclick="re()">下一题下一题！</button>
+</body>
+
+<link type="text/css" rel="styleSheet"  href="css.css" >
+</html>
